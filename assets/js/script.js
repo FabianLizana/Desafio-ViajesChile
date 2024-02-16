@@ -1,4 +1,4 @@
-//Funcion que cambia color con scroll 
+//Funcion que cambia color con scroll
 
 $(window).scroll(function(){
 
@@ -6,10 +6,19 @@ $(window).scroll(function(){
         $("#menu").removeClass("navbar");
        $('#menu').addClass("bg-interno");
       } else {
-    
+
        $("#menu").removeClass("bg-interno");
        $('#menu').addClass("navbar");
       }
 
    });
+
+//    $(window).scroll(function(){
+//     var $menu = $("#menu");
+//     var scrollValue = $(this).scrollTop();
+
+//     $menu.toggleClass("navbar", scrollValue <= 400);
+//     $menu.toggleClass("bg-interno", scrollValue > 400);
+// });
+
 

@@ -12,29 +12,29 @@ body {
 
 
 /* smooth a sroll*/
- /* .bg-interno{
+ .bg-interno{
   background-color: #16a2b7;
-  transition: all 2s ease;
- } */
+  transition: all 1s ease;
+ }
+/* inicio de header */
+.container_header {
+  margin: 0;
+}
+
+.carousel-item {
+  background: center/cover no-repeat scroll;
+}
+/* termino de header */
+.continer_h1{
+  margin-left: 0;
+  margin-right: 0;
+} 
 
  .h1{
   font-family: "Raleway";
   font-size: 400;
  }
- .container_header{
-  margin-left: 0;
-  margin-right: 0;
-} 
 
-.carousel-item {
-  background: center/cover no-repeat scroll;
-}
-
-
-.container_h1{
-  margin-left: 0;
-  margin-right: 0;
-} 
 .hr_linea{
   background-color: #16a2b7;
   height:0.2em;
