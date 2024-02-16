@@ -6,15 +6,14 @@ body {
  
  }
  .navbar {
-  background-color: transparent !important;
+  background-color: transparent ;
   color:white;
 }
-
 
 /* smooth a sroll*/
  .bg-interno{
   background-color: #16a2b7;
-  transition: all 2s ease;
+  transition: all 3s ease;
  }
 /* inicio de header */
 .container_header {
@@ -101,25 +100,20 @@ body {
 /* termino de formulario */
 
 /* footer*/
-.page-footer
-{
-  background-color: #16a2b7;
-}
 footer {
-  color:white;
-  font-weight: bold;
   background-color: #16a2b7;
-  font-family: "Raleway";
-  font-size: 400;
-  position: absolute;
   width: 100%;
   padding:2px
  }
- /* Botones de redes sociales*/
+ 
 .btn{
   width:50px;
   color:#16a2b7;
-  margin:10px;
   padding:10px;
   background-color: white;
 }
+
+.contenedorLinks{  /*luche mucho tiempo con que el contenedor y nada funciono asi que lo hice directo*/
+margin-left: 5rem;
+}
+
