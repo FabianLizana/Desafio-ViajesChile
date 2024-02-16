@@ -25,56 +25,59 @@ body {
   background: center/cover no-repeat scroll;
 }
 /* termino de header */
-.continer_h1{
-  margin-left: 0;
-  margin-right: 0;
+
+/* inicio de seccion Quienes somos? y Destacados */
+.container_h1{
+  margin:0;
 } 
 
- .h1{
+.container_h1 h1, .container_h1 h2 {
   font-family: "Raleway";
-  font-size: 400;
- }
+  font-size: 2.5rem; 
+}
 
 .hr_linea{
   background-color: #16a2b7;
   height:0.2em;
-
 }
-.card0
-{
+
+.card0{
   background-color: black;
 }
-.card-body01
-{  background-color: #16a2b7;  
+
+.card-body01{  background-color: #16a2b7;  
   padding:0;
-  }
-.fa-iconos{
+}
+
+.fa-iconos {
   font-size: 2em;
   color: #fff;
 }
-.card-body02
-{  background-color: black;
+
+.card-body02 {  background-color: black;
   color:white;
   padding:0;
   margin:0;
   text-align:left;
-
 }
-.card-body00
-{  background-color:white;;  
+
+.card-body00{  background-color:white;;  
   margin-top: 1.5em;
-  }
-.card-body03
-{ background-color: #16a2b7;  
+}
+
+.card-body03{ background-color: #16a2b7;  
   color:white;
   text-align:left;
   height:17em;
   padding: 0.5em;
-  
 }
+
 .card-imagen{
   height:140px;
 }
+/* termino de seccion Quienes somos? y Destacados */
+
+
 /* footer*/
 .page-footer
 {
