@@ -1,16 +1,5 @@
 //Funcion que cambia color con scroll//
 
-// $(window).scroll(function() {
-//     if ($(this).scrollTop() > 400) {
-//       $("#menu").removeClass("navbar-dark");
-//       $("#menu").addClass("navbar-light bg-interno");
-//     } else {
-//       $("#menu").removeClass("navbar-light bg-interno");
-//       $("#menu").addClass("navbar-dark");
-//     }
-//   });
-
-
 $(document).ready(function () {
     var navBar = $('#menu');
 
@@ -26,7 +15,6 @@ $(document).ready(function () {
         }
     });
 });
-
 
   $(document).ready(function () {
     // Selecciona todos los enlaces de la barra de navegación que tienen un href que comienza con #
@@ -45,14 +33,5 @@ $(document).ready(function () {
       });
     });
   });
-
-
-//    $(window).scroll(function(){
-//     var $menu = $("#menu");
-//     var scrollValue = $(this).scrollTop();
-
-//     $menu.toggleClass("navbar", scrollValue <= 400);
-//     $menu.toggleClass("bg-interno", scrollValue > 400);
-// });
 
 
