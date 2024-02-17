@@ -7,7 +7,6 @@ body {
  }
  .navbar {
   background-color: transparent ;
-  color:white;
 }
 
 /* smooth a sroll*/
@@ -15,75 +14,37 @@ body {
   background-color: #16a2b7;
   transition: all 2s ease;
  }
-/* inicio de header */
-.container_header {
-  margin: 0;
-}
 
+/* inicio de header */
 .carousel-item {
   background: center/cover no-repeat scroll;
 }
 /* termino de header */
 
 /* inicio de seccion Quienes somos? y Destacados */
-.container_h1{
-  margin:0;
-} 
-
 .hr_linea{
   background-color: #16a2b7;
   height:0.2em;
-
 }
 
-.card0{
+.card-body02 {  
   background-color: black;
 }
 
-.card-body01{background-color: #16a2b7;  
-  padding:0;
-}
-
-.fa-iconos {
-  font-size: 2em;
-  color: #fff;
-}
-
-.card-body02 {  background-color: black;
-  color: #fff;
-  padding:0;
-  margin:0;
-  text-align:left;
-}
-
-.card-body00{  background-color:white;;  
-  margin-top: 1.5em;
-}
-
-.card-body03{ background-color: #16a2b7;  
-  color:white;
+.card-body03{
+  background-color: #16a2b7;  
   text-align:left;
   height:17em;
-  padding: 0.5em;
 }
 
 .card-imagen{
-  height:15rem;
+  height:13rem;
 }
-
 /* termino de seccion Quienes somos? y Destacados */
-
 
 /* inicio de formulario */
 .contactos {
   background-color: black;
-  padding: 50px 0;
-}
-
-.contactos input,
-.contactos textarea {
-  color: white;
-  border: 1px solid white;
 }
 
 .contactos textarea {
@@ -93,23 +54,18 @@ body {
 .contactos .btn-enviar {
   background-color: #16a2b7;
   border: 1px solid white;
-  width: 100px;
-  
+  width: 80px; 
 }
-
 /* termino de formulario */
 
 /* footer*/
 footer {
   background-color: #16a2b7;
-  width: 100%;
-  padding:2px
  }
  
 .btn{
   width:50px;
   color:#16a2b7;
-  padding:10px;
   background-color: white;
 }
 
